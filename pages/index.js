@@ -48,9 +48,9 @@ const VideoPage = () => {
     return(
         <>
            
-                        {/* {Object.keys(videoOptions).length && <VideoPlayer options={videoOptions} onReady={handlePlayerReady} />} */}
+                        {Object.keys(videoOptions).length && <VideoPlayer options={videoOptions} onReady={handlePlayerReady} />}
                           
-                            <VideoPlayer options={videoOptions} onReady={handlePlayerReady} />
+                            {/* <VideoPlayer options={videoOptions} onReady={handlePlayerReady} /> */}
                         {/* </div> */}
 
                       
